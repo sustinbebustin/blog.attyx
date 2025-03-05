@@ -1,0 +1,99 @@
+/* Styling for the BlogPost component */
+.blog-post {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+.blog-post h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+/* Add more space after the title when there's no video */
+.blog-post h2 + .blog-content {
+  margin-top: 20px;
+}
+
+.blog-post .blog-content h3 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #3498db;
+  font-weight: 600;
+}
+
+/* First h3 in content should have less top margin when there's no video */
+.blog-post h2 + .blog-content h3:first-child {
+  margin-top: 10px;
+}
+
+.blog-post .blog-content p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 1.05rem;
+}
+
+.blog-post .blog-content p em {
+  font-style: italic;
+  color: #666;
+}
+
+.blog-post .blog-content p strong {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 15px 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post .blog-content ul {
+  margin-left: 25px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.blog-post .blog-content li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+/* Add a nice hover effect to images */
+.blog-image:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .blog-post {
+    padding: 25px;
+    border-radius: 8px;
+  }
+  
+  .blog-post h2 {
+    font-size: 1.7rem;
+  }
+  
+  .blog-post .blog-content h3 {
+    font-size: 1.3rem;
+  }
+}
