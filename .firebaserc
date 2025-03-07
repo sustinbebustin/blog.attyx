@@ -1,5 +1,7 @@
 {
-  "projects": {},
+  "projects": {
+    "default": "sustinbebustin-b91bb"
+  },
   "targets": {
     "sustinbebustin-b91bb": {
       "hosting": {

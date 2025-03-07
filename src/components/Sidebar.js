@@ -11,9 +11,34 @@ const blogPosts = [
     icon: '📋'
   },
   {
+    id: 'sales-philosophy',
+    title: 'Sales Philosophy',
+    icon: '🧠'
+  },
+  {
+    id: 'frame-the-call',
+    title: 'Frame the Call',
+    icon: '🎯'
+  },
+  {
     id: 'discovery-questions',
-    title: 'Discovery Questions Guide',
+    title: 'Discovery Questions',
     icon: '🔎'
+  },
+  {
+    id: 'feedback',
+    title: 'Feedback',
+    icon: '💡'
+  },
+  {
+    id: 'financial-objections',
+    title: 'Financial Objections',
+    icon: '💰'
+  },
+  {
+    id: 'support-objections',
+    title: 'Support Objections',
+    icon: '🤝'
   }
 ];
 

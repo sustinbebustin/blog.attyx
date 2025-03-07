@@ -4,8 +4,8 @@
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   margin: 0 auto;
+  padding: 20px;
   max-width: 800px;
-  padding: 35px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #333;
 }
@@ -96,4 +96,100 @@
   .blog-post .blog-content h3 {
     font-size: 1.3rem;
   }
+}
+
+.blog-content {
+  line-height: 1.6;
+}
+
+.blog-content h3 {
+  margin-top: 30px;
+  color: #2c3e50;
+}
+
+.blog-content h4 {
+  margin-top: 20px;
+  color: #34495e;
+}
+
+.blog-content ul, .blog-content ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-content li {
+  margin-bottom: 10px;
+}
+
+.dialogue {
+  background-color: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.dialogue p {
+  margin: 10px 0;
+  font-style: italic;
+  color: #495057;
+}
+
+.example-box {
+  background-color: #e9ecef;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+.example-box p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.example-box ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+strong {
+  color: #2c3e50;
+}
+
+em {
+  color: #e67e22;
+}
+
+/* Table styling */
+.table-container {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-container th, 
+.table-container td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+}
+
+.table-container th {
+  background-color: #f5f7fa;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-container tr:hover {
+  background-color: #f1f5f9;
 }
